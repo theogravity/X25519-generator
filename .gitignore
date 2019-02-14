@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+.idea/
+test-report.xml
+lib/
+
+private.key.pem
+public.key.pem
