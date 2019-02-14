@@ -31,3 +31,5 @@ but the public key in the above example is 44 bytes. We're unsure what the poten
 and so created this utility to ensure a working set of keys can be generated.
 
 The generated keypair with this utility does work in the Java library we are testing against, along with `tweetnacl`.
+
+See https://bugs.openjdk.java.net/browse/JDK-8213363 for more information.
