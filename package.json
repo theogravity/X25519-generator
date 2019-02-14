@@ -1,6 +1,6 @@
 {
   "name": "generate-x25519-keypair",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "CLI utility to generate an x25519 keypair that is compatible for use with tweetnacl",
   "bin": {
     "generate-x25519-keypair": "lib/bin/generate-x25519-keypair.js"
@@ -27,14 +27,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theogravity/boilerplate.git"
+    "url": "git+https://github.com/theogravity/tweetnacl-x25519-keypair-generator.git"
   },
   "author": "Theo Gravity <theo@suteki.nu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theogravity/boilerplate/issues"
+    "url": "https://github.com/theogravity/tweetnacl-x25519-keypair-generator/issues"
   },
-  "homepage": "https://github.com/theogravity/boilerplate#readme",
+  "keywords": ["tweetnacl", "keys", "keypair", "generator", "generate", "x25519"],
+  "homepage": "https://github.com/theogravity/tweetnacl-x25519-keypair-generator#readme",
   "dependencies": {
     "tweetnacl": "^1.0.1",
     "tweetnacl-sealedbox-js": "^1.1.0",
