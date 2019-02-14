@@ -1,20 +1,20 @@
-# create-x25519-keys
+# generate-tweetnacl-keys
 
 This is a CLI utility to generate an x25519 keypair that is compatible for use with `tweetnacl`.
 
 ## Install
 
-`$ npm i -g create-x25519-keys`
+`$ npm i -g generate-tweetnacl-keys`
 
 ## Usage
 
 Generates two files, `public.key.pem`, `private.key.pem`
 
-`$ create-x25519-keys`
+`$ generate-tweetnacl-keys`
 
 Specify the output filenames:
 
-`$ create-x25519-keys --privout private.pem --pubout public.pem`
+`$ generate-tweetnacl-keys --privout private.pem --pubout public.pem`
 
 ## Context
 

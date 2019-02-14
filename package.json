@@ -1,12 +1,12 @@
 {
-  "name": "create-x25519-keys",
+  "name": "generate-tweetnacl-keys",
   "version": "0.5.0",
   "description": "CLI utility to generate an x25519 keypair that is compatible for use with tweetnacl",
   "bin": {
-    "create-x25519-keys": "lib/bin/create-x25519-keys.js"
+    "generate-tweetnacl-keys": "lib/bin/generate-tweetnacl-keys.js"
   },
   "scripts": {
-    "create-x25519-keys": "node --require @babel/register ./src/bin/create-x25519-keys.js",
+    "generate-tweetnacl-keys": "node --require @babel/register ./src/bin/generate-tweetnacl-keys.js",
     "build": "babel src -d lib",
     "debug": "nodemon --inspect --require @babel/register --require source-map-support/register src/index.js",
     "debug:break": "nodemon --inspect-brk --require @babel/register --require source-map-support/register src/index.js",
