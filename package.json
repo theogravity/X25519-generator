@@ -1,6 +1,6 @@
 {
   "name": "generate-tweetnacl-keys",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "CLI utility to generate an x25519 keypair that is compatible for use with tweetnacl",
   "bin": {
     "generate-tweetnacl-keys": "lib/bin/generate-tweetnacl-keys.js"
