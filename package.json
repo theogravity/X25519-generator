@@ -34,7 +34,14 @@
   "bugs": {
     "url": "https://github.com/theogravity/tweetnacl-x25519-keypair-generator/issues"
   },
-  "keywords": ["tweetnacl", "keys", "keypair", "generator", "generate", "x25519"],
+  "keywords": [
+    "tweetnacl",
+    "keys",
+    "keypair",
+    "generator",
+    "generate",
+    "x25519"
+  ],
   "homepage": "https://github.com/theogravity/tweetnacl-x25519-keypair-generator#readme",
   "dependencies": {
     "tweetnacl": "^1.0.1",
@@ -62,7 +69,7 @@
     "regenerator-runtime": "^0.13.1",
     "source-map-support": "^0.5.10",
     "standard": "^12.0.1",
-    "toc-md": "^0.2.0"
+    "toc-md-alt": "^0.2.1"
   },
   "lint-staged": {
     "src/**/*.js": [
