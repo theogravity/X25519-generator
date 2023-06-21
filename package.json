@@ -47,7 +47,7 @@
     "tweetnacl": "^1.0.1",
     "tweetnacl-sealedbox-js": "^1.1.0",
     "tweetnacl-util": "^0.15.0",
-    "yargs": "^13.1.0"
+    "yargs": "^13.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
